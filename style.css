@@ -1,0 +1,29 @@
+body {
+  display: block;
+  margin: auto;
+  background-color: #000;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.text{
+  color: #fff;
+  font-size: 36px;
+}
+
+.link{
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.link:hover,
+.link:focus{
+  color: bisque;
+  text-decoration: none;
+}
